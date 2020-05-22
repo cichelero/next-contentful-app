@@ -4,6 +4,7 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
+    "pretty": "prettier --write \"(pages|lib|components)/**/*.js\"",
     "start": "next start",
     "setup": "node ./contentful/setup.js $CONTENTFUL_SPACE_ID $CONTENTFUL_MANAGEMENT_TOKEN"
   },
@@ -21,6 +22,7 @@
     "contentful-import": "^7.7.12",
     "dotenv": "8.2.0",
     "postcss-preset-env": "^6.7.0",
+    "prettier": "2.0.5",
     "tailwindcss": "^1.2.0"
   }
 }
