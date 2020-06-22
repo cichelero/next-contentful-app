@@ -2,6 +2,8 @@
 
 This example showcases Next.js's [Static Generation](/docs/basic-features/pages.md) feature using [Contentful](https://www.contentful.com/) as the data source.
 
+Any content change triggers a new build and deploy.
+
 ## Demo
 
 ### [https://next-blog-contentful.now.sh/](https://next-blog-contentful.now.sh/)
